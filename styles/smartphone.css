@@ -70,7 +70,7 @@ form > h1 {
     font-size: 1rem;
 }
 
-.btn-sign-in {
+input[type="submit"] {
     width: 100%;
     height: 40px;
     background-color: #007bff;
@@ -80,14 +80,13 @@ form > h1 {
     font-size: 1rem;
     color: white;
     font-weight: 600;
+    transition: background-color 0.1s;
     margin-bottom: 20px;
 }
 
-.btn-sign-in:hover {
+input[type="submit"]:hover {
     background-color: #1384fc;
-    transition: 0.1;
 }
-
 
 .btn-google {
     display: block;
@@ -109,15 +108,19 @@ form > h1 {
 }
 
 .register-link {
-    font-size: 1rem;
     text-align: center;
 }
 
 .register-link > p {
+    font-size: 1rem;
     color: grey;
 }
 
-@media screen and (max-width: 390px){
+.register-link > p > a {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 410px){
     .remember-forgot {
         flex-direction: column;
         gap: 10px;
