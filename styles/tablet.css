@@ -1,0 +1,62 @@
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    form {
+        width: 60vw;
+        max-width: 460.8px;
+        padding: 30px 30px 60px;
+    }
+
+    form > p {
+        font-size: 1.3rem;
+        margin-bottom: 12px;
+    }
+
+    form > h1 {
+        font-size: 2.2rem;
+    }
+
+    .input-box {
+        height: 45px;
+        margin: 24px 0;
+    }
+
+    .input-box > input {
+        font-size: 1.1rem;
+        padding: 6px 12px;
+    }
+
+    .remember-forgot {
+        margin: -12 0 24px;
+    }
+
+    .remember-forgot > label {
+        font-size: 1.1rem;
+    }
+
+    .remember-forgot > label > input {
+        margin-right: 3px;
+    }
+
+    .remember-forgot > a {
+        font-size: 1.1rem;
+    }
+
+    button {
+        height: 45px;
+        font-size: 1.1rem;
+        margin-bottom: 24px;
+    }
+
+    .btn-google {
+        height: 45px;
+        font-size: 1.1rem;
+        margin-bottom: 24px;
+    }
+
+    .register-link > p {
+        font-size: 1.1rem;
+    }
+
+    .register-link > p > a {
+        font-size: 1.1rem;
+    }
+}

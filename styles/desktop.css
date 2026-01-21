@@ -1,0 +1,62 @@
+@media screen and (min-width: 1024px){
+    form {
+        width: 560px;
+        padding: 35px 35px 60px;
+    }
+
+
+    form > p {
+        font-size: 1.4rem;
+        margin-bottom: 14px;
+    }
+
+    form > h1 {
+        font-size: 2.4rem;
+    }
+
+    .input-box {
+        height: 50px;
+        margin: 28px 0;
+    }
+
+    .input-box > input {
+        font-size: 1.2rem;
+        padding: 7px 14px;
+    }
+
+    .remember-forgot {
+        margin: -14 0 28px;
+    }
+
+    .remember-forgot > label {
+        font-size: 1.2rem;
+    }
+
+    .remember-forgot > label > input {
+        margin-right: 4px;
+    }
+
+    .remember-forgot > a {
+        font-size: 1.2rem;
+    }
+
+    button {
+        height: 50px;
+        font-size: 1.2rem;
+        margin-bottom: 28px;
+    }
+
+    .btn-google {
+        height: 50px;
+        font-size: 1.2rem;
+        margin-bottom: 28px;
+    }
+
+    .register-link > p {
+        font-size: 1.2rem;
+    }
+
+    .register-link > p > a {
+        font-size: 1.2rem;
+    }
+}

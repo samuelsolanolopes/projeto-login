@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+form {
+    width: 90vw;
+    max-width: 500px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 25px 25px 50px;
+}
+
+form > p {
+    font-size: 1.2rem;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+form > h1 {
+    font-size: 2rem;
+}
+
+.input-box {
+    height: 40px;
+    margin: 20px 0;
+}
+
+.input-box > input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+
+.input-box > input::placeholder {
+    color: gray;
+}
+
+.remeber-forgot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin: -10px 0 20px;
+}
+
+.remeber-forgot > label {
+    font-size: 1rem;
+}
+
+.remeber-forgot > label > input {
+    margin-right: 2px;
+}
+
+.remeber-forgot > a {
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.1s;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #1384fc;
+}
+
+.btn-google {
+    display: block;
+    text-decoration: none;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.register-link {
+    display: flex;
+    justify-content: center;
+}
+
+.register-link > p {
+    font-size: 1rem;
+    color: gray;
+}
+
+.register-link > p > a {
+    font-size: 1rem;
+}
